@@ -1,0 +1,45 @@
+:root{
+   --color1: #222831;
+   --color2: #393e46;
+   --color3: #00adb5;
+   --color4: #eeeeee;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+
+}
+
+header{
+   flex-grow: 1;
+   background-color: var(--color4);
+   height: 300px;
+   background-image: url("./assets/api-fondo.svg");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: 17vw;
+}
+
+main{
+   flex-grow: 5;
+
+   background-color: var(--color2);
+   height: 500px;
+
+}
+
+footer{
+   flex-grow: 1;
+
+   background-color: var(--color1);
+   height: 300px;
+
+
+}
