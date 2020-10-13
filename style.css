@@ -120,6 +120,25 @@ main{
    color:var(--color3)
 }
 
+.landingApi__items-vanilla{
+   color: #F7DF1E;
+   
+    
+}
+
+.landingApi__items-webcomponent{
+  background: linear-gradient(90deg,#CCE440 13%, #1A76AF 75%, #000 0);
+-webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+.landingApi__items-react{
+   color:#61DAFB
+}
+.landingApi__items-vue{
+   color:#41B883
+}
+
 footer{
    flex-grow: 1;
 
